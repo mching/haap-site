@@ -1,4 +1,101 @@
-theme = "terrassa"
-baseURL = "http://example.org/"
-languageCode = "en-us"
+baseurl = "/"
 title = "Hawaii Chapter, American Academy of Pediatrics"
+author = "HAAP"
+googleAnalytics = ""
+defaultContentLanguage = "en"
+language = "en-US"
+paginate = 3 # Number of posts per page
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+theme = "terrassa"
+# themesDir = "../.." # Not necessary on production sites
+
+[outputs]
+    home = ["HTML", "RSS"]
+    page = ["HTML", "RSS"]
+
+[params]
+    description = "The Chapter is a voluntary organization of over 300 members in private, group, military and academic practice as well as pediatricians in training and other non-pediatric physicians interested in Hawaii child health issues."
+    favicon = "" # Relative URL
+    logo = "images/Hawaii_arrangement_1A_png.png" # Absolute URL
+
+[params.hero]
+    textColor = "" # Empty for default color
+
+[params.cta] # Call To Action 
+    show = true
+    cta = "Contact"
+    link = "contact" # Relative URL
+
+[params.separator] # Separators between sections on the home page
+    show = false
+
+[params.fa] # Font Awesome options
+    version = "5.7.2"
+    integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+
+[params.form] # Contact form
+    netlify = true # Use only if you are using Netlify
+    action = "https://formspree.io/mcnk522-en@yahoo.com"
+    method = "POST"
+    inputNameName = "name"
+    inputNameLabel = "Name"
+    inputNamePlaceholder = "Your name"
+    inputEmailName = "email"
+    inputEmailLabel = "Email"
+    inputEmailPlaceholder = "Your email"
+    inputMsgName = "message"
+    inputMsgLabel = "Your message"
+    inputMsgLength = 750
+    inputSubmitValue = "Send"
+
+[params.posts]
+    showAuthor = true
+    showDate = true
+    showTags = true
+    dateFormat = "Monday, Jan, 2006"
+
+[params.contact] # Contact info
+    email = ""
+    phone = "(808) 282-4944"
+    skype = ""
+    address = "PO Box 25817, Honolulu, HI 96825-0817"
+
+[params.social] # Social networks
+    twitter = ""
+    facebook = "https://facebook.com/hawaiiaap.org"
+    github = ""
+    gitlab = ""
+    codepen = ""
+    instagram = ""
+    pinterest = ""
+    youtube = ""
+    linkedin = ""
+    weibo = ""
+    mastodon = ""
+    tumblr = ""
+    flickr = ""
+    "500px" = ""
+
+[params.copy] # Copyright
+    copy = "" # Empty for default content
+
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = false
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = false
+        simple = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = true
+        simple = false
+    [privacy.vimeo]
+        disable = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true

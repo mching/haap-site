@@ -7,4 +7,4 @@ menu: main
 weight: 0
 ---
 
-![Hawaii_arrangement_1A_png.png](/images/Hawaii_arrangement_1A_png.png) 
+![Logo](/images/Hawaii_arrangement_1A_png.png) 
