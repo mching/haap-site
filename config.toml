@@ -1,0 +1,4 @@
+theme = "terrassa"
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Hawaii Chapter, American Academy of Pediatrics"
