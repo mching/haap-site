@@ -22,7 +22,7 @@ The Chapter holds an annual meeting sharing news from the AAP and local topics o
 
 Chapter members represent the interests of children and their doctors on numerous committee and boards, in state government (such as the Departments of Education and Health) as well as in public/private coalitions.
 
-Getting in touch with us
+## Getting in touch with us
 
 Please contact:  Executive Director, Sharon Hicks
 
