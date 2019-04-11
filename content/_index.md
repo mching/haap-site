@@ -1,6 +1,6 @@
 ---
 title: "Home"
-description: ""
+description: "Hawaii Chapter, American Academy of Pediatrics"
 images: ["Hero1.jpg"]
 draft: true
 menu: main

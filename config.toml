@@ -17,7 +17,7 @@ theme = "terrassa"
 [params]
     description = "The Chapter is a voluntary organization of over 300 members in private, group, military and academic practice as well as pediatricians in training and other non-pediatric physicians interested in Hawaii child health issues."
     favicon = "" # Relative URL
-    logo = "images/Hawaii_arrangement_1A_png.png" # Absolute URL
+#    logo = "images/Hawaii_arrangement_1A_png.png" # Absolute URL
 
 [params.hero]
     textColor = "" # Empty for default color
